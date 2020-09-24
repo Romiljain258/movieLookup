@@ -1,0 +1,65 @@
+*{
+  text-align: center;
+  background-color:black;
+}
+.App {
+  text-align: center;
+  background-color:black;
+}
+.outer{
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  grid-gap:15px;
+}
+.inner{
+  cursor:pointer;
+  border:1px solid white;
+  color:white;
+  font-style:calibri;
+  margin-left:15px;
+}
+.inner:hover{
+  opacity: .7;
+}
+.text{
+  margin-top:5px;
+  width:180px;
+  height:30px;
+  border-radius:4px;
+  margin-bottom:15px;
+  color:white;
+  font-weight: 600;
+  border:1px solid white;
+}
+.text1{
+  margin-top:5px;
+  width:100px;
+  height:33px;
+  border-radius:4px;
+  margin-bottom:15px;
+  color:white;
+  margin-left:5px;
+  font-weight: 600;
+  border:1px solid white;
+}
+
+.color-w{
+  color:white;
+}
+.fav-btn{
+  margin-bottom:10px;
+  margin-right:100px;
+  border:1px solid white;
+  border-radius:4px;
+  font-size:20px;
+  cursor:pointer;
+color:gray;
+}
+.star{
+  color:white;
+}
+.star:hover{
+  color:rgb(255, 94, 0);
+}
