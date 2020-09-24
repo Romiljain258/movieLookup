@@ -4,7 +4,7 @@ import Fav from './Fav';
 import Display from './Display';
 import axios from 'axios';
 
-const Movie = (props) => {
+const Movie = () => {
     let [movie, setMovie] = useState([]);
     let [fav, setFav] = useState([]);
     let [search, setSearch] = useState('');
@@ -14,7 +14,7 @@ const Movie = (props) => {
     const findResult = (e) => {
         e.preventDefault();
         setFirst(false);
-        axios.get(`http://www.omdbapi.com/?apikey=ffaca4de&type=${demand}&s=${search}`)
+        axios.get(`https://www.omdbapi.com/?apikey=ffaca4de&type=${demand}&s=${search}`)
             .then(json => {
                 if (json.data.Search == undefined) {
                     setMovie([])
